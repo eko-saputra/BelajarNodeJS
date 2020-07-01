@@ -4,11 +4,11 @@ Untuk menginstall node js silahkan ikuti step by step berikut:
 #1. Download node js di website resminya nodejs.org
 #2. Kemudian install seperti menginstall aplikasi pada umumnya.
 #3. Untuk melihat apakah node js terinstall di computer Anda, silahkan buka terminal atau Command Line / Command Prompt.
-Kemudian ketikan perintah berikut:
+Kemudian ketikan perintah berikut pada Command Prompt:
 
 node -v
 
-Setelah itu cek juga npm (node package manager) dengan mengetikan perintah berikut:
+Setelah itu cek juga npm (node package manager) dengan mengetikan perintah berikut pada Command Prompt:
 
 npm -v
 
@@ -28,7 +28,7 @@ http.createServer(function(req,res){
  
 console.log('Server is running at port 8000');
 
-#3. Jalankan app.js dengan perintah:
+#3. Jalankan app.js dengan perintah pada Command Prompt:
 
 node app.js
 
