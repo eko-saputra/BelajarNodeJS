@@ -1,0 +1,37 @@
+Instalasi Node JS.
+Untuk menginstall node js silahkan ikuti step by step berikut:
+
+#1. Download node js di website resminya nodejs.org
+#2. Kemudian install seperti menginstall aplikasi pada umumnya.
+#3. Untuk melihat apakah node js terinstall di computer Anda, silahkan buka terminal atau Command Line / Command Prompt.
+Kemudian ketikan perintah berikut:
+
+node -v
+
+Setelah itu cek juga npm (node package manager) dengan mengetikan perintah berikut:
+
+npm -v
+
+Basic Webserver Node.js
+#1. Pertama, buat sebuah folde dengan nama BelajarNodeJS dan di dalam folder tersebut buat file javascript dengan nama app.js.
+
+#2. Kemudian ketikan kode berikut:
+
+const http = require('http');
+ 
+http.createServer(function(req,res){
+  res.writeHead(200,{
+    "Content-Type" : "text/html"
+  });
+  res.end("Hello World");
+}).listen(8000);
+ 
+console.log('Server is running at port 8000');
+
+#3. Jalankan app.js dengan perintah:
+
+node app.js
+
+#4. Buka browser Anda, kemudian ketikan URL berikut:
+
+http://localhost:8000
